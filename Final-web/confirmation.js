@@ -51,7 +51,7 @@ function confirmDonation() {
     setTimeout(() => {
       const encodedAmount = encodeURIComponent(amount);
       const encodedId = encodeURIComponent(id);
-      const url = `https://esewa.com.np/#/sc=9803514141&su=Donation%20to%20Legend's%20Rescue&amt=${encodedAmount}&pid=${encodedId}`;
+      const url = `https://esewa.com.np/#/sc=14141&su=Donation%20to%20Legend's%20Rescue&amt=${encodedAmount}&pid=${encodedId}`;
       thankYouPage.location.href = url;
     }, 3000);
   }
