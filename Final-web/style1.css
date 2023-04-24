@@ -1,0 +1,246 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+header{
+background: linear-gradient(rgba(255,128,0,0.7), rgba(255,102,0,0.7)), url("images/9.png") ;
+height: 100vh;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+position: relative;
+z-index: 1;
+}
+.contact-box{
+width: 500px;
+background-color: #fff;
+box-shadow: 0 0 20px 0 #999;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+h1{
+margin: 10px 0 0 30px;
+padding: 0;
+font-weight: bold;
+font-size: 33px;
+color: #000;
+text-align: left;
+font-family: cursive;
+}
+form{
+margin: 0 35px 0 35px;
+}
+.input-field{
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #777;
+border-radius: 14px;
+outline: none;
+}
+.textarea-field{
+height: 150px;
+padding-top: 10px;
+}
+.btn{
+border-radius: 20px;
+color: #fff;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 9px;
+background-color: #f6648b;
+border: none;
+cursor: pointer;
+position: relative;
+}
+.wrapper{
+width: 1170px;
+margin: auto;
+}
+.nav-area{
+float: right;
+list-style: none;
+margin-top: 30px;
+}
+.nav-area li{
+display: inline-block;
+}
+.nav-area li a{
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 14px;
+}
+.nav-area li a:hover{
+background: #fff;
+color: #333;
+}
+.logo img{
+width: 150px;
+float: left;
+height: auto;
+}
+#Image-slider {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation {
+  position: relative;
+  padding-top: 50%;
+}
+
+.navigation .prev {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 50%;
+  left: -60px;
+  content: '\2190' ;
+}
+
+.navigation .next {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 50%;
+  right: -60px;
+  content: '\2192' ;
+}
+
+.navigation .nav-btn:before {
+  content: '\2192';
+}
+
+.navigation .nav-btn.prev:before {
+  content: '\2190';
+}
+
+.carousel {
+  margin-top: 20px;
+  transition: all 0.1s ease;
+
+}
+.carousel img {
+  width: 100%;
+  transition: all 0.1s ease;
+}
+
+.item {
+position: absolute;
+display: none;
+width: 600px ;
+height: 400px ;
+}
+
+.main {
+  display: block;
+}
+
+#box-area{
+   width:980px;
+   height: 635px;
+  font-size: 20px;
+  border:0px solid red;
+  margin:0px auto;
+  }
+.box {
+margin:10px;
+width:306px;
+height:300px;
+background:#000000;
+float: left;
+margin-right: 0px auto;
+font-family: "Broadway";
+font-size: 27px;
+
+}
+.box-link {
+  text-decoration: none;
+  color:#928d3b;
+}
+.welcome-text {
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 300px;
+  text-align: center;
+}
+
+.welcome-text h1{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 44px;
+}
+
+.welcome-text a{
+    border: 1px solid #006400;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+  footer {
+    background-color: #0e7464;
+    padding: 20px;
+  }
+  .footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-content {
+    flex-grow: 1;
+    text-align: left;
+  }
+  .footer-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-links a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer-image {
+    margin-left: 20px;
+  }
+  .footer-image img {
+    height: 40px;
+  }

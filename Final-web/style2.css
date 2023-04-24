@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+}
+
+header{
+  background: linear-gradient(rgba(255,128,0,0.7), rgba(255,102,0,0.7));
+  height: auto;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-area li {
+  display: inline-block;
+}
+
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.logo img {
+  width: 150px;
+  float: left;
+  height: auto;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  padding: 9px;
+  margin: 49px;
+}
+
+.gallery {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.column {
+  margin: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.des {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 16px;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.column:hover .des {
+  opacity: 1;
+}
+
+footer {
+  background-color: #0e7464;
+  padding: 13px;
+}
+
+.footer-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.footer-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px 10px 0;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-image {
+  margin-left: 20px;
+}
+
+.footer-image img {
+  height: 40px;
+}

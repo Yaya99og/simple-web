@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background: linear-gradient(rgba(255,128,0,0.7), rgba(255,102,0,0.7)), url("images/10.jpg") ;
+    height: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 150px;
+    float: left;
+    height: auto;
+}
+
+  .about-text{
+    width: 999px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3% 15%;
+    text-align: center;
+  }
+
+  .about-text h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 64px;
+    text-align: left;
+  }
+
+  .about-text p{
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+  }
+
+table {
+    border-collapse: collapse;
+    font-family: Times New Roman, sans-serif;
+    margin: auto;
+    width: 80%;
+}
+th {
+    background-color: #00FFFF;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    width: 80px;
+}
+tr:nth-child(even) {
+    background-color: #ADFF2F;
+}
+
+tr:nth-child(odd) {
+    background-color: #FF69B4;
+}
+
+.table-img {
+    width: 50px;
+    height: 50px;
+}
+
+  footer {
+    background-color: #0e7464;
+    padding: 20px;
+    margin-top: auto;
+  }
+  .footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-content {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .footer-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 20px;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-links a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+  }
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer-image {
+    margin-left: 20px;
+  }
+  .footer-image img {
+    height: 40px;
+  }
